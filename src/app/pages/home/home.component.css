@@ -1,0 +1,122 @@
+.slider{
+    margin: 0 auto;
+    width: 1000px;
+    height: 400px;
+    overflow: hidden;
+}
+.slides{
+    width: 1000px;
+    height: 400px;
+    display: flex;
+}
+.slides input {
+    display: none;
+}
+.slides{
+    width: 25%;
+    position: relative;
+}
+.slide img{
+    width: 100%;
+    display: flex;
+}
+.slide img{
+    width: 1000px;
+}
+.manual-navigation{
+    position: absolute;
+    width: 1000px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+.manual-btn{
+    border: 2px solid #FFF;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s  ;
+}
+.manual-btn:not(:last-child){
+    margin-right: 30px;
+}
+.manual-btn:hover{
+    background-color: #FFF;
+}
+#radio1:checked ~ .first{
+    margin-left: 0;
+} 
+#radio2:checked ~ .first{
+    margin-left: -400%;
+} 
+#radio3:checked ~ .first{
+    margin-left: -800%;
+} 
+.navigation-auto div{
+    border: 2px solid #20a6ff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.navigation-auto{
+    position: absolute;
+    width: 1000px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+.navigation-auto div:not(:last-child){
+    margin-right: 30px;
+}
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: #FFF;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: #FFF;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: #FFF;
+}
+
+
+
+.destaque{
+    text-align: center;
+    font-family: Fantasy; 
+    font-size: 40px;
+    color: #e7e7e7;
+    background-color: #000000;
+    height: 50px;
+}
+.galeria{
+    text-align: center;
+    font-family: Fantasy; 
+    font-size: 40px;
+    color: #e7e7e7;
+    background-color: #000000;
+}
+.cpu{
+    margin: auto;
+    border: 2px solid #000000;
+    padding-left: 5px;
+    padding-right:  5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.jogo{
+    margin: auto;
+    border: 2px solid #000000;
+    padding-left: 5px;
+    padding-right:  5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.ps5{
+    margin: auto;
+    border: 2px solid #000000;
+    padding-left: 5px;
+    padding-right:  5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}

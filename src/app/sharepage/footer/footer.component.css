@@ -1,0 +1,28 @@
+.selo{
+    position: relative;
+    left: 30%;
+    
+}
+.tabelaRedes{
+    position: relative;
+    font-family: Fantasy;
+    color: #FFFFF0;
+    letter-spacing: .1rem;
+}
+.tabelaAtendimento{
+    position: relative;
+    font-family: Fantasy;
+    color: #FFFFF0;
+    letter-spacing: .1rem;
+}
+.rodape{
+    column-count: 3;
+    background: #4F4F4F;
+}
+.galeria{
+    text-align: center;
+    font-family: Fantasy; 
+    font-size: 40px;
+    color: #e7e7e7;
+    background-color: #000000;
+}
